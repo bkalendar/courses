@@ -1,0 +1,37 @@
+export interface Course {
+    stt: number;
+    msmh: string;
+    monhoc: string;
+    course: string;
+    dieukiendangky: string;
+    tinchi: number;
+    ecth: number;
+    pbstc_lt: number;
+    pbstc_thl_th: number;
+    pbstc_tn: number;
+    pbstc_thq: number;
+    pbstc_da: number;
+    pbstc_ttnt: number;
+    pbstc_lvtn: number;
+    sotiet: number;
+    pbst_lt: number;
+    pbst_thl_th: number;
+    pbst_tn: number;
+    pbst_thq: number;
+    pbst_da: number;
+    pbst_ttnt: number;
+    pbst_lvtn: number;
+    tldgpt_thl_th: number;
+    tldgpt_tn: string;
+    tldgpt_th: string;
+    tldgpt_da: number;
+    tldgpt_kt: string;
+    tldgpt_thi: number;
+    kt_hinhthuc: string;
+    kt_sophut: string;
+    thi_hinhthuc: string;
+    thi_sophut: number;
+    bomonphutrach: string;
+    mau: string;
+    khoa: string;
+}
